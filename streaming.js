@@ -48,3 +48,4 @@ const recommendedMovies = db.movies.find(
 ).sort({ avgRating: -1 }).toArray();
 
 console.log(recommendedMovies);
+

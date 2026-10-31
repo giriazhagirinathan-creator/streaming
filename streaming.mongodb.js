@@ -41,3 +41,4 @@ db.movies.find(
   { genres: "Sci-Fi", avgRating: { $gte: 8.5 } },
   { title: 1, genres: 1, avgRating: 1, _id: 0 }
 ).sort({ avgRating: -1 });
+
